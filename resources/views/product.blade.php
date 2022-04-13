@@ -30,14 +30,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($cats as $model)
-                    <tr>
-                        <td>{{$model->id}}</td>
-                        <td>{{$model->name}}</td>
-                        <td>{{$model->status}}</td>
-
-                    </tr>
-                    @endforeach
+                    
                 </tbody>
             </table>
             
